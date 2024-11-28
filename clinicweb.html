@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AAA Multispeciality Clinic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AAA Multispeciality Clinic</h1>
+    <p>Your trusted healthcare partner dedicated to providing high-quality medical services.</p>
+</header>
+
+<section>
+    <h2>Welcome to AAA Multispeciality Clinic</h2>
+    <p>At AAA Multispeciality Clinic, we offer a wide range of specialties under one roof to ensure all your healthcare needs are met with personalized care and expertise.</p>
+    <a href="#book-appointment" class="cta-button">Book an Appointment</a>
+</section>
+
+<section>
+    <h2>About Us</h2>
+    <p>We are committed to providing holistic healthcare with a team of expert doctors in various specialties. Our clinic combines state-of-the-art facilities with compassionate care to deliver the best outcomes for our patients.</p>
+</section>
+
+<section>
+    <h2>Our Specialties</h2>
+    <ul>
+        <li><strong>Cardiology:</strong> Expert heart care with modern diagnostics and treatment options.</li>
+        <li><strong>Orthopedics:</strong> Treatment for musculoskeletal disorders including joint replacements and trauma care.</li>
+        <li><strong>Dermatology:</strong> Skin care services including acne treatment, cosmetic procedures, and more.</li>
+        <li><strong>Pediatrics:</strong> Comprehensive care for children from birth through adolescence.</li>
+        <li><strong>General Medicine:</strong> Preventative care and treatment for common illnesses and conditions.</li>
+        <li><strong>Gynecology:</strong> Specialized care for women's health, including routine exams and surgical procedures.</li>
+        <li><strong>Neurology:</strong> Expert care for nervous system disorders such as stroke, epilepsy, and more.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Book an Appointment</h2>
+    <form id="appointment-form">
+        <label for="doctor">Select a Doctor</label>
+        <select id="doctor" name="doctor" required>
+            <option value="cardiologist">Cardiologist</option>
+            <option value="orthopedist">Orthopedist</option>
+            <option value="dermatologist">Dermatologist</option>
+            <option value="pediatrician">Pediatrician</option>
+            <option value="gynecologist">Gynecologist</option>
+            <option value="neurologist">Neurologist</option>
+        </select>
+        <label for="date">Select Date</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Select Time</label>
+        <input type="time" id="time" name="time" required>
+        <button type="submit" class="cta-button">Schedule Appointment</button>
+    </form>
+</section>
+
+<section>
+    <h2>Patient Resources</h2>
+    <ul>
+        <li><a href="#">Patient Forms</a></li>
+        <li><a href="#">Health Tips</a></li>
+        <li><a href="#">Medical Articles</a></li>
+        <li><a href="#">FAQ</a></li>
+    </ul>
+</section>
+
+<section>
+    <h2>Online Consultation</h2>
+    <p>Unable to visit the clinic? Book an online consultation with our doctors and get the care you need from the comfort of your home.</p>
+</section>
+
+<section>
+    <h2>Testimonials</h2>
+    <p>"AAA Multispeciality Clinic has been a life-changing experience for me. The doctors are highly skilled and compassionate." – John D.</p>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <form class="contact-form" action="#">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section>
+    <h2>Blog</h2>
+    <p>Stay updated with the latest health tips, medical news, and expert advice from our healthcare professionals. <a href="#">Read our Blog</a></p>
+</section>
+
+<section>
+    <h2>Emergency Services</h2>
+    <p>For 24/7 emergency support, please call our helpline or visit our clinic. Our team is always ready to assist you in urgent medical situations.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 AAA Multispeciality Clinic. All Rights Reserved.</p>
+    <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</p>
+</footer>
+
+</body>
+</html>
